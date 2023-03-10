@@ -4,8 +4,6 @@
 
 This project has server and client side architecture. Postgresql is used for database. For server side node express is used. For client side containing frontend is developed using react. This makes it a PERN stack project.
 
-<br>
-
 ## <b>Available Scripts
 
 In the project directory, you can run:
@@ -14,18 +12,14 @@ In the project directory, you can run:
 
 Do npm start to install packages in root repository directory. Then in both client and server directory.
 
-### **Note: It uses concurrently package to run both frontend and backend at one command !**<br>
+### **Note: It uses concurrently package to run both frontend and backend at one command !** <br>
 
 ### `npm run dev`
-
-<br>
 
 ## <b>Google APIs
 
 Login into your google cloud console and in API and services enable google drive api and google people api.<br>
 Get your credentials, setup redirect URI properly and put it into environment variables using .env file.<br>.env.example file is given for example.
-
-<br>
 
 ## <b>Postgresql Database
 
