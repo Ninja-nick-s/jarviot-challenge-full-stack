@@ -1,0 +1,139 @@
+.mainpage-button {
+  margin: 10px;
+  padding: 20px 50px;
+  font-weight: 800;
+  background: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+}
+.mainpage-button:hover {
+  box-shadow: 0 0 10px -1px gray;
+  transform: scale(1.05);
+}
+.table-component {
+  width: calc(100vw - 40px);
+
+  height: 500px;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 10px;
+}
+
+.table-component table {
+  width: 100%;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  box-shadow: 0 0 20px -5px gray;
+  border-collapse: collapse;
+}
+.table-component table thead tr th {
+  padding: 20px 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #ceedf2;
+  text-align: start;
+  position: sticky;
+  top: 0;
+  width: 25%;
+}
+.table-owner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.table-component table tbody tr td img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.table-component table tbody tr td {
+  padding: 5px;
+}
+.report-analytics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px;
+}
+.report-analytics span {
+  padding: 30px 0;
+  text-align: center;
+  border:  1px solid rgb(199, 199, 199);
+  margin: 5px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.report-analytics span:hover {
+  background-color: #ceedf2;
+  border-color: #ceedf2;
+}
+.report-title {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.report-title button {
+  position: absolute;
+  padding: 10px 30px;
+  right: 20px;
+  top: 20px;
+  background: rgb(248, 82, 82);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.report-title button:hover {
+  background: rgb(255, 62, 62);
+  box-shadow: 0 0 10px -5px black;
+  transform: scale(1.1);
+}
+.files-table {
+  /* border: 3px solid #ceedf2; */
+  margin: 20px 10px;
+}
+
+.files-table h1 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 30px 10px 20px 10px;
+}
+hr {
+  border: 1px solid #b4b4b442;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ceedf2;
+  border-radius: 10px;
+}
+
+.google-img{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.mainpage{
+ display: flex;
+ justify-content: space-between;
+ background: rgba(255, 255, 255, 0.722);
+ 
+}
+.mainpage h1{ 
+  margin-left: 10px;
+}
